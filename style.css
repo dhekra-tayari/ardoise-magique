@@ -1,0 +1,62 @@
+body{
+    background-color: #ECF0F1;
+}
+canvas{
+    border:2px solid rgba(0, 0, 0, 0.2); ;
+    background-color: white;
+}
+h1{
+    color: red;
+}
+label{
+    color:blue;
+}
+
+#gomme i{
+    color: black;
+}
+
+ #gomme button{
+     padding: 5px 15px;
+     border:1px solid black
+ }
+ #color fa-circle:nth-child(1){
+     color :black
+ }
+ #color button:nth-child(2){
+color: saddlebrown;
+}
+#color button:nth-child(3){
+    color:red;
+    }
+    #color button:nth-child(4){
+        color:yellow;
+        }
+        #color button:nth-child(5){
+          color: darkgreen;
+            }
+            #color button:nth-child(6){
+               color: lightseagreen;
+                }
+                #color button:nth-child(7){
+                    color:blue;
+                    }
+#ep button{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 20px;
+    color: black;
+}
+div{
+    margin: 15px 0;
+}
+#canvas1{
+    border:2px solid rgba(0, 0, 0, 0.2); ;
+    background-color: white;
+    margin-left: 60px;
+}
+
+.hide
+{
+    display: none;
+}

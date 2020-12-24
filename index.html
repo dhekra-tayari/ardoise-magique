@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>ardoise magique</title>
+        <script src="https://kit.fontawesome.com/1d3da5fd73.js" crossorigin="anonymous"></script>
+
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+      
+     
+     
+    </head>
+    <body>
+        <h1>Ardoise Magique ;-)</h1>
+        <canvas id="canvas" width="500" height="300"></canvas>
+        <canvas id="canvas1" width="300" height="200" class="hide"></canvas><hr>
+     
+
+       
+           
+           <div id="gomme">
+            <label for="gomme">Outils:</label>
+          <button id="delete"><i  id="effacer" class="fa fa-eraser"></i></button>
+          <button id="color-picker"><i class="fa fa-pencil-alt"></i></button>
+           </div>
+            
+          <div id="color">
+                <label for="color">Couleur:</label>
+                <button class="color" data-color='saddlebrown'><i class="fa fa-circle"></i></button>
+                <button class="color" data-color='red'><i class="fa fa-circle"></i></button>
+                <button class="color" data-color='yellow'><i class="fa fa-circle"></i></button>
+                <button class="color" data-color='darkgreen'><i class="fa fa-circle"></i></button>
+                <button class="color" data-color='lightseagreen'><i class="fa fa-circle"></i></button>
+                <button class="color" data-color='blue'><i class="fa fa-circle"></i></button>
+                <button class="color" data-color='black'><i class="fa fa-circle"></i></button>
+          </div>
+         
+          <div id="ep">
+            <label for="ep">Epaisseur:</label>
+            <button class="size" data-size="1" >Fin</button>
+			      <button class="size" data-size="3">Normal</button>
+			      <button class="size" data-size="5" >Epais</button>
+               
+          </div>
+        
+
+    <script src="index.js"></script>
+          
+          
+    </body>
+    </html>
